@@ -1,0 +1,54 @@
+{
+  "spellbooks": 1,
+  "books": [
+    {
+      "id": "blender",
+      "name": "Blender",
+      "version": "0.1.0",
+      "language": "en",
+      "file": "books/blender.json",
+      "sha256": "177bc6a04689c35f409bb82302aab949cd4b31cc63b7c664710ed23025c7411c",
+      "reviewed": true,
+      "web": false,
+      "exe": [
+        "blender",
+        "blender-launcher"
+      ],
+      "recipes": 20
+    },
+    {
+      "id": "flypp",
+      "name": "Flypp",
+      "version": "0.1.0",
+      "language": "en",
+      "file": "books/flypp.json",
+      "sha256": "0a0b22826ec4683a84dee3e8a5bbda2be431e596bf478c70c6ba364c5a9ef260",
+      "reviewed": true,
+      "web": true,
+      "exe": [
+        "chrome",
+        "msedge",
+        "firefox",
+        "brave",
+        "opera",
+        "vivaldi",
+        "flypp"
+      ],
+      "recipes": 23
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "version": "0.1.0",
+      "language": "en",
+      "file": "books/unity.json",
+      "sha256": "96a4bbff5b06f47cc0fd1aa52ae8fabf0ab7f60f332fc1a193b3405e9314146e",
+      "reviewed": true,
+      "web": false,
+      "exe": [
+        "unity"
+      ],
+      "recipes": 14
+    }
+  ]
+}

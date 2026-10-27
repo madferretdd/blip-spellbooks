@@ -1,0 +1,25 @@
+{
+  "spellbook": 1,
+  "id": "my-app",
+  "name": "My App",
+  "version": "0.1.0",
+  "license": "CC-BY-4.0",
+  "authors": ["your name or handle"],
+  "tested_with": "My App 2.3",
+  "language": "en",
+  "about": "One line on what the app is for.",
+  "app": { "exe": ["myapp"], "title": [] },
+  "landmarks": [
+    { "name": "Export", "where": "File menu, top left", "what": "saving as PNG, PDF and so on" }
+  ],
+  "recipes": [
+    { "id": "export-png", "asks": ["export a png", "save as an image", "save a picture"], "checked": true,
+      "say": "Optional one-liner Blip says first.",
+      "steps": [
+        { "do": "Open File, then Export", "click": "File > Export" },
+        { "do": "Pick PNG and save", "click": "PNG", "keys": "Ctrl+Shift+E" }
+      ] }
+  ],
+  "glossary": { "Artboard": "What My App calls a page." },
+  "tips": ["A short, genuinely useful tip people might not know."]
+}
